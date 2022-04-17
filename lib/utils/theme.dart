@@ -6,7 +6,7 @@ class Themes {
     colorScheme: ColorScheme.fromSwatch().copyWith(
     secondary: Colors.red, // Your accent color
   ),
-    primaryColor: Colors.red,
+    primaryColor: Colors.red.shade900,
     brightness: Brightness.light,
     appBarTheme: const AppBarTheme(backgroundColor: Color(0xffF6F6F6),shadowColor: Color(0xff00000029),elevation: 3),
     textTheme: TextTheme(
